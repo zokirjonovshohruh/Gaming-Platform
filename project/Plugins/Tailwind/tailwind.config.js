@@ -15,10 +15,11 @@ tailwind.config = {
     },
     container: {
       padding: {
-        DEFAULT: '0.8rem',
-        sm: '0.9rem',
-        lg: '1rem',
-        xl: '1.2rem'
+        DEFAULT: '1rem',
+        sm: '2.5rem',
+        md: '3rem',
+        lg: '5rem',
+        xl: '7rem'
       },
       center: 'true',
     },
@@ -39,6 +40,8 @@ tailwind.config = {
        currentBlue: '#2351F5',
        topBg: '#000',
        bottomBg: '#4A2800',
+       buttonLeft: '#FA8305',
+       buttonRight: '#FB9E3C',
     },
     lineHeight: {
       'none': '1',

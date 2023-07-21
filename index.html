@@ -5,19 +5,120 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./project/Style/style.css">
-  <link rel="stylesheet" href="./project/Icon/cdn.jsdelivr.net_npm_remixicon@2.2.0_fonts_remixicon.css">
   <link rel="stylesheet" href="./project/Plugins/Flowbite/cdnjs.cloudflare.com_ajax_libs_flowbite_1.7.0_flowbite.min.css">
   <link rel="stylesheet" href="./project/Plugins/Swipper/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
   <script src="./project/Plugins/Tailwind/tailwind.js"></script>
   <script src="./project/Plugins/Tailwind/tailwind.config.js"></script>
   <script src="./project/Plugins/Flowbite/cdnjs.cloudflare.com_ajax_libs_flowbite_1.7.0_flowbite.min.js"></script>
   <title>Home</title>
 </head>
 <body>
-  <div class="wrapper">
+  <div class="wrapper bg-gradient-to-b	from-topBg to-bottomBg ">
+    <nav class="text-white py-4 md:py-7 xl:py-[37px] leading-normal w-full ">
+      <div class="container">
+        <div class="flex justify-between bg-transparent items-center">
+          <a href="./index.html" class="poppins-black leading-[153.5%] text-lg md:text-2xl lg:text-[29px] mb-1 ">LOGO</a>
+          <div class="flex justify-end  md:justify-between w-[80%] lg:w-[75%] xl:w-[55%] items-center">
+            <ul class="justify-between w-3/4 hidden md:flex lg:w-[70%] ">
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./index.html"  class="">Home</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./about-us.html" class="">About us</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./services.html" class="">Portfolio</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./news.html" class="">News</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+            </ul>
+            <a href="./contact-us.html" class="hidden md:flex py-2.5 px-4 mb-1 lg:px-8 bg-currentOrange rounded-sm text-[13px]">Contact us</a>
+            <button class=" md:hidden" type="button" data-drawer-target="drawer-right-example" data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
+              <i class="ri-menu-3-line text-2xl duration-500 hover:text-currentOrange"></i>
+            </button>
+            <div id="drawer-right-example" class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-currentBlack w-80 " tabindex="-1" aria-labelledby="drawer-right-label">
+             <button type="button" data-drawer-hide="drawer-right-example" aria-controls="drawer-right-example" class="text-gray-400 bg-transparent hover:bg-currentOrange hover:text-white duration-500 rounded-lg text-sm w-8 h-8 absolute top-2.5 right-2.5 inline-flex items-center justify-center " >
+                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                </svg>
+                <span class="sr-only">Close menu</span>
+             </button>
+             <a href="./index.html" class="poppins-black leading-[153.5%] text-lg md:text-2xl lg:text-[29px] ">LOGO</a>
+             <ul class="gap-y-5 mb-10 w-full flex flex-col pt-10">
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./index.html"  class="">Home</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./about-us.html" class="">About us</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./services.html" class="">Portfolio</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./news.html" class="">News</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+            </ul>
+            <a href="./contact-us.html" class=" py-2.5 px-4 mb-1 lg:px-8 bg-currentOrange rounded-sm text-[13px]">Contact us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="text-white pb-10">
+      <div class="container">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="w-full md:w-[43%]">
+            <p class="poppins-bold text-[#E87D0E] leading-relaxed pb-4 md:text-lg">3D game Dev </p>
+            <h1 class="poppins-bold leading-relaxed text-2xl pb-3 md:pb-[26px] md:text-4xl xl:text-[50px]">Work that we produce for our clients</h1>
+            <p class="leading-loose poppins-medium pb-4 md:pb-8 xl:pb-[50px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+            <a href="#" class="inline-block py-3 md:py-3.5 px-8 bg-gradient-to-r from-buttonLeft to-buttonRight rounded-[40px]">Get more details</a>
+          </div>
+          <div class="hidden md:block md:w-[38%] relative">
+            <img src="./project/Image/home header (1).png" alt="" class="w-full h-[480px] lg:h-[530px] xl:h-[600px]">
+            <img src="./project/Image/home header logo (1).png" alt="" class="w-[60px] h-16 absolute top-[15%] right-5">
+            <img src="./project/Image/home header logo (2).png" alt="" class="w-24 h-[30px] absolute top-[45%] -left-24">
+            <img src="./project/Image/home header logo (3).png" alt="" class="w-[100px] h-[100px] absolute top-[14%] left-20">
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="">
 
-
-
+    </section>
 
 
 
