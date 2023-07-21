@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "poppins-thin";
+  src: url(../Fonts/Poppins/Poppins-Thin.ttf);
+}
+@font-face {
+  font-family: "poppins-extralight";
+  src: url(../Fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "poppins-light";
+  src: url(../Fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: "poppins-regular";
+  src: url(../Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins-medium";
+  src: url(../Fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "poppins-semibold";
+  src: url(../Fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "poppins-bold";
+  src: url(../Fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "poppins-extrabold";
+  src: url(../Fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "poppins-black";
+  src: url(../Fonts/Poppins/Poppins-Black.ttf);
+}
+
+.poppins-thin{
+  font-family: "poppins-thin";
+  font-weight: 100;
+}
+.poppins-extralight{
+  font-family: "poppins-extralight";
+  font-weight: 200;
+}
+.poppins-light{
+  font-family: "poppins-light";
+  font-weight: 300;
+}
+.poppins-normal{
+  font-family: "poppins-regular";
+  font-weight: 400;
+}
+.poppins-medium{
+  font-family: "poppins-medium";
+  font-weight: 500;
+}
+.poppins-semibold{
+  font-family: "poppins-semibold";
+  font-weight: 600;
+}
+.poppins-bold{
+  font-family: "poppins-bold";
+  font-weight: 700;
+}
+.poppins-extrabold{
+  font-family: "poppins-extrabold";
+  font-weight: 800;
+}
+.poppins-black{
+  font-family: "poppins-black";
+  font-weight: 900;
+}
+*{
+  font-family: "poppins-regular";
+}
