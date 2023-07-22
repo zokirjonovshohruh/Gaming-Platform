@@ -42,6 +42,7 @@ tailwind.config = {
        bottomBg: '#4A2800',
        buttonLeft: '#FA8305',
        buttonRight: '#FB9E3C',
+       buttonBg: 'rgba(255, 255, 255, 0.11)',
     },
     lineHeight: {
       'none': '1',

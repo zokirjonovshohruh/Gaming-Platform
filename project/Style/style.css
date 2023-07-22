@@ -35,6 +35,16 @@
   src: url(../Fonts/Poppins/Poppins-Black.ttf);
 }
 
+@font-face {
+  font-family: "rubik-medium";
+  src: url(../Fonts/Rubik/Rubik-Medium.ttf);
+  src: url(../Fonts/Rubik/Rubik-Medium.ttf);
+}
+@font-face {
+  font-family: "rubik-bold";
+  src: url(../Fonts/Rubik/Rubik-Bold.ttf);
+}
+
 .poppins-thin{
   font-family: "poppins-thin";
   font-weight: 100;
@@ -71,6 +81,33 @@
   font-family: "poppins-black";
   font-weight: 900;
 }
+
+.rubik-medium{
+  font-family: "rubik-medium";
+  font-weight: 500;
+}
+.rubik-bold{
+  font-family: "rubik-bold";
+  font-weight: 700;
+}
 *{
   font-family: "poppins-regular";
+}
+.devolopment{
+  background-image: url(../Image/home\ section-4\ bg.png) !important;
+}
+.devolopment__bg{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), rgba(0, 0, 0, 0.54);
+  backdrop-filter: blur(2px);
+}
+@media screen and (min-width:1024px) {
+  .card-design{
+    grid-area: 2 / 2;
+  }
+  .card-3dmodel{
+    grid-area: 2 / 3;
+  }
+}
+.wrapper-bg{
+  background: linear-gradient(152deg, #090300 0%, rgba(9, 3, 0, 0.00) 100%);
 }
