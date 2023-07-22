@@ -5,29 +5,321 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./project/Style/style.css">
-  <link rel="stylesheet" href="./project/Icon/cdn.jsdelivr.net_npm_remixicon@2.2.0_fonts_remixicon.css">
   <link rel="stylesheet" href="./project/Plugins/Flowbite/cdnjs.cloudflare.com_ajax_libs_flowbite_1.7.0_flowbite.min.css">
   <link rel="stylesheet" href="./project/Plugins/Swipper/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
   <script src="./project/Plugins/Tailwind/tailwind.js"></script>
   <script src="./project/Plugins/Tailwind/tailwind.config.js"></script>
   <script src="./project/Plugins/Flowbite/cdnjs.cloudflare.com_ajax_libs_flowbite_1.7.0_flowbite.min.js"></script>
   <title>Portfolio</title>
 </head>
 <body>
-  <div class="wrapper">
-
-
-
-
-
-
-    
+  <div class="wrapper portfolio">
+    <nav class="text-white py-4 md:py-7 xl:py-[37px] leading-normal w-full ">
+      <div class="container">
+        <div class="flex justify-between bg-transparent items-center">
+          <a href="./index.html" class="poppins-black leading-[153.5%] text-lg md:text-2xl lg:text-[29px] mb-1 ">LOGO</a>
+          <div class="flex justify-end  md:justify-between w-[80%] lg:w-[75%] xl:w-[55%] items-center">
+            <ul class="justify-between w-3/4 hidden md:flex lg:w-[70%] ">
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./index.html"  class="">Home</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./about-us.html" class="">About us</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./services.html" class="">Portfolio</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./news.html" class="">News</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+            </ul>
+            <a href="./contact-us.html" class="hidden md:flex py-2.5 px-4 mb-1 lg:px-8 bg-currentOrange rounded-sm text-[13px]">Contact us</a>
+            <button class=" md:hidden" type="button" data-drawer-target="drawer-right-example" data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
+              <i class="ri-menu-3-line text-2xl duration-500 hover:text-currentOrange"></i>
+            </button>
+            <div id="drawer-right-example" class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-currentBlack w-80 " tabindex="-1" aria-labelledby="drawer-right-label">
+             <button type="button" data-drawer-hide="drawer-right-example" aria-controls="drawer-right-example" class="text-gray-400 bg-transparent hover:bg-currentOrange hover:text-white duration-500 rounded-lg text-sm w-8 h-8 absolute top-2.5 right-2.5 inline-flex items-center justify-center " >
+                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                </svg>
+                <span class="sr-only">Close menu</span>
+             </button>
+             <a href="./index.html" class="poppins-black leading-[153.5%] text-lg md:text-2xl lg:text-[29px] ">LOGO</a>
+             <ul class="gap-y-5 mb-10 w-full flex flex-col pt-10">
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./index.html"  class="">Home</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./about-us.html" class="">About us</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./services.html" class="">Portfolio</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+              <li class="inline-block overflow-x-hidden group pl-3.5 ">
+                <a href="./news.html" class="">News</a>
+                <span class="flex gap-x-1.5 block mt-1">
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                </span>
+              </li>
+            </ul>
+            <a href="./contact-us.html" class=" py-2.5 px-4 mb-1 lg:px-8 bg-currentOrange rounded-sm text-[13px]">Contact us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="py-14 md:py-24 xl:pt-[100px] xl:pb-[130px]  text-white">
+      <div class="container flex flex-col items-center">
+        <div class="flex flex-wrap gap-1 text-xs leading-too-lose pb-6">
+          <a href="./index.html">Home</a>
+          <i class="ri-arrow-right-s-line"></i>
+          <a href="./services.html" class="text-breadcrumbText">Services</a>
+        </div>
+        <h1 class="poppins-semibold leading-too-lose text-xl md:text-[33px] pb-3">Lorem Ipsum is simply dummy text of the printing and.</h1>
+        <p class="poppins-medium leading-lose pb-6 md:pb-[45px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <div class="bg-cardBg rounded-extra-lg p-4 w-full flex justify-between flex-wrap gap-4 items-center md:flex-row  lg:py-[37px] lg:px-[80px] xl:w-11/12">
+          <div class="inline-flex w-auto space-x-8 items-center">
+            <span class="w-[55px] h-[55px] rounded-full bg-lightPink flex justify-center items-center shrink-0"><img src="./project/Image/services section icon (3).png" alt="" class="w-6 h-6"></span>
+            <div class="">
+              <h1 class="pb-[5px] rubik-bold text-[25px] leading-[30px]">90+</h1>
+              <p class="rubik-normal text-xl leading-[30px]">Clients</p>
+            </div>
+          </div>
+          <div class="w-full h-[1px] md:w-[2px] md:h-[90px] lg:h-[120px]  bg-white"></div>
+          <div class="inline-flex w-auto space-x-8 items-center">
+            <span class="w-[55px] h-[55px] rounded-full bg-lightPink flex justify-center items-center shrink-0"><img src="./project/Image/services section icon (2).png" alt="" class="w-6 h-6"></span>
+            <div class="">
+              <h1 class="pb-[5px] rubik-bold text-[25px] leading-[30px]">30+</h1>
+              <p class="rubik-normal text-xl leading-[30px]">Countries</p>
+            </div>
+          </div>
+          <div class="w-full h-[1px] md:w-[2px] md:h-[90px] lg:h-[120px]  bg-white"></div>
+          <div class="inline-flex w-auto space-x-8 items-center">
+            <span class="w-[55px] h-[55px] rounded-full bg-lightPink flex justify-center items-center shrink-0"><img src="./project/Image/services section icon (1).png" alt="" class="w-6 h-6"></span>
+            <div class="">
+              <h1 class="pb-[5px] rubik-bold text-[25px] leading-[30px]">50+</h1>
+              <p class="rubik-normal text-xl leading-[30px]">Projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" pb-11 md:pb-24 lg:pb-36 xl:pb-[180px] text-white">
+      <div class="container flex flex-col md:flex-row items-center justify-between gap-y-10">
+        <img src="./project/Image/sevices section-2.png" alt="" class="w-full h-[250px] object-cover rounded-2xl md:w-3/6 xl:h-[350px] xl:w-[670px]">
+        <div class="w-full md:w-5/12 xl:w-[30%] 2xl:w-[42%]">
+          <h1 class="poppins-bold leading-normal mb-3 lg:leading-thin-lose text-xl lg:text-3xl">Lorem Ipsum is simply dummy text.</h1>
+          <p class="text-sm leading-lose mb-4 lg:mb-[30px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy .</p>
+          <div class="flex items-center mb-4">
+            <input checked id="bordered-checkbox-2" type="checkbox" value="" name="bordered-checkbox" class="text-[#2FAB73] rounded-full bg-gray-100 border-0  focus:ring-0 dark:focus:ring-0 dark:ring-offset-0 focus:ring-0 dark:border-0 w-6 h-6 text-xl">
+            <label for="bordered-checkbox-2" class="text-sm leading-lose ml-2.5">Lorem Ipsum is simply</label>
+          </div> 
+          <div class="flex items-center mb-4">
+            <input checked id="bordered-checkbox-3" type="checkbox" value="" name="bordered-checkbox" class="text-[#2FAB73] rounded-full bg-gray-100 border-0  focus:ring-0 dark:focus:ring-0 dark:ring-offset-0 focus:ring-0 dark:border-0 w-6 h-6 text-xl">
+            <label for="bordered-checkbox-3" class="text-sm leading-lose ml-2.5">Lorem Ipsum is simply</label>
+          </div>        
+          <div class="flex items-center mb-4">
+            <input checked id="bordered-checkbox-4" type="checkbox" value="" name="bordered-checkbox" class="text-[#2FAB73] rounded-full bg-gray-100 border-0  focus:ring-0 dark:focus:ring-0 dark:ring-offset-0 focus:ring-0 dark:border-0 w-6 h-6 text-xl">
+            <label for="bordered-checkbox-4" class="text-sm leading-lose ml-2.5">Lorem Ipsum is simply</label>
+          </div> 
+          <div class="flex items-center mb-4">
+            <input checked id="bordered-checkbox-5" type="checkbox" value="" name="bordered-checkbox" class="text-[#2FAB73] rounded-full bg-gray-100 border-0  focus:ring-0 dark:focus:ring-0 dark:ring-offset-0 focus:ring-0 dark:border-0 w-6 h-6 text-xl">
+            <label for="bordered-checkbox-5" class="text-sm leading-lose ml-2.5">Lorem Ipsum is simply</label>
+          </div> 
+        </div>
+      </div>
+    </section>
+    <section class="text-white pb-14 md:pb-24 lg:pb-32 xl:pb-42">
+      <div class="container flex justify-between flex-col-reverse md:flex-row items-center gap-y-8">
+        <div class="w-full md:w-1/2 2xl:w-[53%] xl:w-[45%]">
+          <h1 class="leading-normal poppins-medium pb-4 md:pb-7 xl:pb-[43px] text-xl md:text-3xl">Lorem Ipsum is simply dummy text dummy text </h1>
+          <p class="text-sm leading-normal md:text-[17px] pb-[18px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+          <p class="text-sm leading-normal md:text-[17px] pb-4 md:pb-8 xl:pb-11">Lorem Ipsum is simply dummy text of the printing and br typesetting industry. </p>
+          <a href="#" class="inline-block py-[13px] px-11 bg-currentOrange">Read more</a>
+        </div>
+        <img src="./project/Image/services section-3 (3).png" alt="" class="w-full h-[300px] object-cover md:w-[40%] lg:w-[45%] lg:h-[450px] xl:w-[500px] xl:h-[490px]">
+      </div>
+    </section>
+    <section class="text-white pb-14 md:pb-24 lg:pb-32 xl:pb-[180px]">
+      <div class="container flex justify-between flex-col-reverse md:flex-row-reverse items-center gap-y-8">
+        <div class="w-full md:w-1/2 2xl:w-[53%] xl:w-[45%]">
+          <h1 class="leading-normal poppins-medium pb-4 md:pb-7 xl:pb-[43px] text-xl md:text-3xl">Lorem Ipsum is simply dummy text dummy text </h1>
+          <p class="text-sm leading-normal md:text-[17px] pb-[18px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+          <p class="text-sm leading-normal md:text-[17px] pb-4 md:pb-8 xl:pb-11">Lorem Ipsum is simply dummy text of the printing and br typesetting industry. </p>
+          <a href="#" class="inline-block py-[13px] px-11 bg-currentOrange">Read more</a>
+        </div>
+        <img src="./project/Image/services section-3 (2).png" alt="" class="w-full h-[300px] object-cover md:w-[40%] lg:w-[45%] lg:h-[450px] xl:w-[500px] xl:h-[490px]">
+      </div>
+    </section>
+    <section class="text-white pb-14 md:pb-24 lg:pb-32 xl:pb-[170px]">
+      <div class="container flex justify-between flex-col-reverse md:flex-row items-center gap-y-8">
+        <div class="w-full md:w-1/2 2xl:w-[53%] xl:w-[45%]">
+          <h1 class="leading-normal poppins-medium pb-4 md:pb-7 xl:pb-[43px] text-xl md:text-3xl">Lorem Ipsum is simply dummy text dummy text </h1>
+          <p class="text-sm leading-normal md:text-[17px] pb-[18px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+          <p class="text-sm leading-normal md:text-[17px] pb-4 md:pb-8 xl:pb-11">Lorem Ipsum is simply dummy text of the printing and br typesetting industry. </p>
+          <a href="#" class="inline-block py-[13px] px-11 bg-currentOrange">Read more</a>
+        </div>
+        <img src="./project/Image/services section-3 (1).png" alt="" class="w-full h-[300px] object-cover md:w-[40%] lg:w-[45%] lg:h-[450px] xl:w-[500px] xl:h-[490px]">
+      </div>
+    </section>
+    <section class="text-white py-10 md:py-14 xl:pt-[88px] xl:pb-[60px] bg-cardBg">
+      <div class="container flex flex-col items-center">
+        <div class="xl:w-5/12">
+          <h1 class="text-center rubik-medium pb-5 text-xl leading-normal md:text-[35px] md:leading-[50px]">Trusted by Thousands of Happy Customer</h1>
+          <p class="text-sm leading-lose text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy .</p>
+        </div>
+      </div>
+      <div class="swiper mySwiper-customers">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="p-4 md:p-[30px] rounded-extra-lg bg-darkBlack border-2 duration-500 hover:border-currentOrange border-[#DDDDDD]">
+              <div class="flex justify-between items-center">
+                <div class="flex gap-x-5">
+                  <a href="#" class="block"><img src="./project/Image/services user img (3).png" alt="" class="w-[50px] h-[50px] rounded-full"></a>
+                  <div>
+                    <a href="#" class="pb-1 rubik-medium text-lg leading-[30px]">Viezh Robert</a>
+                    <p class="text-sm rubik-normal text-[#4F5665]">Warsaw, Poland</p>
+                  </div>
+                </div>
+                <div class="flex gap-x-2.5">
+                  <p class="rubik-normal leading-[30px]">4.5</p>
+                  <i class="ri-star-fill text-[#FEA250]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next-customers"></div>
+        <div class="swiper-button-prev-customers"></div>
+      </div>
+    </section>
+    <section class="text-white py-14 md:py-20 xl:py-[160px] ">
+      <div class="container ">
+        <div class="lg:w-5/12 mb-10 md:mb-14 xl:mb-[74px]">
+          <h1 class="poppins-semibold leading-lose text-xl md:text-3xl pb-4 md:pb-8 ">Lorem Ipsum</h1>
+          <p class="leading-lose ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div class="bg-cardBg p-4 rounded-xl md:p-7 xl:py-10 xl:px-14 flex flex-col md:flex-row justify-between gap-10 items-center">
+          <div class="md:w-3/6">
+            <h1 class="poppins-medium pb-2.5 leading-lose text-xl lg:text-3xl">Stay in the loop</h1>
+            <p class="text-[14px] md:text-[17px] leading-normal">Subscribe to receive the latest news and updates about TDA.  We promise not to spam you! </p>
+          </div>
+          <div class="lg:w-5/12 md:w-3/6  relative w-full">
+            <form action="" class="w-full">
+              <input type="email" placeholder="Enter email address" class="w-full rounded-lg py-[14px] px-5 text-[13px] poppins-light text-[#898989]">
+              <button class="text[13px] leading-normal bg-currentOrange py-2 px-4 rounded-lg absolute top-1.5 right-1.5 z-[5]">Continue</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-footerBg pt-8 md:pt-11 xl:pt-[73px] text-white">
+      <div class="container border-b border-[#D2D2D2]">
+        <div class="flex  justify-between flex-wrap md:pb-14 pb-7 gap-10 ">
+          <div class="md:w-[30%] w-full">
+            <a href="#" class="pb-4 block poppins-extrabold text-2xl leading-[153.5%]">LOGO</a>
+            <p class="leading-normal pb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <a href="#" class="leading-normal">@Logo</a>
+          </div>
+          <div class=" w-5/12 md:w-[20%] ">
+            <h1 class="poppins-medium pb-4 text-[17px]">About us</h1>
+            <ul class="flex flex-col gap-1.5">
+              <li>
+                <a href="./about-us.html" class="leading-[186.3%] duration-500 hover:text-currentOrange">Zeux</a>
+              </li>
+              <li>
+                <a href="./services.html" class="leading-[186.3%] duration-500 hover:text-currentOrange">Portfolio</a>
+              </li>
+              <li>
+                <a href="./index.html" class="leading-[186.3%] duration-500 hover:text-currentOrange">Careers</a>
+              </li>
+              <li>
+                <a href="./contact-us.html" class="leading-[186.3%] duration-500 hover:text-currentOrange">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class=" w-3/6 md:w-[20%]">
+            <h1 class="poppins-medium pb-4 text-[17px]">Contact us</h1>
+            <p class="leading-normal pb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <a href="tel:908 89097 890" class="leading-normal">+908 89097 890</a>
+          </div>
+          <div class="w-full lg:w-[15%] flex lg:flex-wrap justify-center xl:flex-row  gap-4 xl:items-end">
+            <a href="https://www.facebook.com/" class="w-[34px] h-[34px] rounded-full bg-white flex justify-center items-center text-[#000000] duration-500 hover:bg-currentOrange hover:text-white hover:scale-125 scale-100">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="w-[34px] h-[34px] rounded-full bg-white flex justify-center items-center text-[#000000] duration-500 hover:bg-currentOrange hover:text-white hover:scale-125 scale-100">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://www.twitter.com/" class="w-[34px] h-[34px] rounded-full bg-white flex justify-center items-center text-[#000000] duration-500 hover:bg-currentOrange hover:text-white hover:scale-125 scale-100">
+              <i class="ri-twitter-fill"></i>
+            </a>
+            <a href="https://www.linkedin.com/" class="w-[34px] h-[34px] rounded-full bg-white flex justify-center items-center text-[#000000] duration-500 hover:bg-currentOrange hover:text-white hover:scale-125 scale-100">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col items-center py-4 md:py-[30px] px-2">
+        <p class="text-center text-[13px] leading-[190.6%]">Copyright ® 2021 <a href="#" class="duration-500 hover:text-currentOrange inline-block">Lorem</a> All rights Rcerved</p>
+      </div>
+    </footer>
   </div>
   <script src="./project/Plugins/Swipper/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.js"></script>
   <script src="./project/Plugins/Aos/unpkg.com_aos@2.3.1_dist_aos.js"></script>
   <script>
    //aos
     AOS.init();
+    var swiper = new Swiper(".mySwiper-customers", {
+      slidesPerView: 3,
+      spaceBetween: 50,
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next-customers",
+        prevEl: ".swiper-button-prev-customers",
+      },
+    });
   </script>
 </body>
 </html>

@@ -36,8 +36,11 @@
 }
 
 @font-face {
+  font-family: "rubik-regular";
+  src: url(../Fonts/Rubik/Rubik-Regular.ttf);
+}
+@font-face {
   font-family: "rubik-medium";
-  src: url(../Fonts/Rubik/Rubik-Medium.ttf);
   src: url(../Fonts/Rubik/Rubik-Medium.ttf);
 }
 @font-face {
@@ -82,6 +85,11 @@
   font-weight: 900;
 }
 
+
+.rubik-normal{
+  font-family: "rubik-regular";
+  font-weight: 400;
+}
 .rubik-medium{
   font-family: "rubik-medium";
   font-weight: 500;
@@ -113,4 +121,7 @@
 }
 .about-us{
   background: linear-gradient(177deg, #010101 0%, #1A0E01 100%);
+}
+.portfolio{
+  background: linear-gradient(150deg, #050301 0%, #120A01 100%);
 }
