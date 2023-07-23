@@ -131,3 +131,73 @@
 .contact-us{
   background: linear-gradient(162deg, #090501 0%, #120A01 100%);
 }
+.contact-us__img-animated{
+  animation: X 2s ease-in-out infinite alternate-reverse both;
+}
+.btn-traslate{
+  animation: btn-traslate 1s ease-in-out infinite alternate-reverse both;
+}
+.img-traslate{
+  animation: img-traslate 1s ease-in-out infinite alternate-reverse both;
+}
+.title{
+  animation: heart 1s ease-in-out infinite alternate-reverse both;
+}
+.arrow-scale{
+  animation: arrow-scale 1s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes arrow-scale {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: scale(1);
+  }
+  90%{
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.8);
+    animation-delay: 500ms;
+  }
+}
+@keyframes X {
+  0% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(-50px);
+  }
+}
+@keyframes btn-traslate {
+  0% {
+    transform: translateX(0px);
+  }
+  50%{
+    transform: scale(.9);
+  }
+  100% {
+    transform: translateX(-150px);
+  }
+}
+@keyframes heart{
+  0% {
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(.5);
+  }
+  100% {
+    transform: scale(1.25);
+  }
+}
+@keyframes img-traslate {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

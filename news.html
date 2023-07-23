@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./project/Plugins/Flowbite/cdnjs.cloudflare.com_ajax_libs_flowbite_1.7.0_flowbite.min.css">
   <link rel="stylesheet" href="./project/Plugins/Swipper/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="./project/Plugins/Aos/unpkg.com_aos@2.3.1_dist_aos.css">
   <script src="./project/Plugins/Tailwind/tailwind.js"></script>
   <script src="./project/Plugins/Tailwind/tailwind.config.js"></script>
   <script src="./project/Plugins/Flowbite/cdnjs.cloudflare.com_ajax_libs_flowbite_1.7.0_flowbite.min.js"></script>
@@ -20,7 +21,7 @@
   </style>
 </head>
 <body>
-  <div class="wrapper news">
+  <div class="wrapper news overflow-x-hidden">
     <nav class="text-white py-4 md:py-7 xl:py-[37px] leading-normal w-full ">
       <div class="container">
         <div class="flex justify-between bg-transparent items-center">
@@ -51,12 +52,12 @@
               <li class="inline-block overflow-x-hidden group pl-3.5 ">
                 <a href="./news.html" class="">News</a>
                 <span class="flex gap-x-1.5 block mt-1">
-                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
-                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-13px] duration-500 "></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-13px] duration-500"></span>
                 </span>
               </li>
             </ul>
-            <a href="./contact-us.html" class="hidden md:flex py-2.5 px-4 mb-1 lg:px-8 bg-currentOrange rounded-sm text-[13px]">Contact us</a>
+            <a href="./contact-us.html" class="hidden md:flex py-2.5 px-4 mb-1 lg:px-8 bg-[#FA9021] rounded-sm text-[13px]">Contact us</a>
             <button class=" md:hidden" type="button" data-drawer-target="drawer-right-example" data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
               <i class="ri-menu-3-line text-2xl duration-500 hover:text-currentOrange"></i>
             </button>
@@ -93,12 +94,12 @@
               <li class="inline-block overflow-x-hidden group pl-3.5 ">
                 <a href="./news.html" class="">News</a>
                 <span class="flex gap-x-1.5 block mt-1">
-                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500 group-hover:delay-300"></span>
-                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-70px] group-hover:translate-x-[-13px] duration-500"></span>
+                  <span class="w-8 h-1 bg-currentOrange block rounded translate-x-[-13px] duration-500 "></span>
+                  <span class="w-[6px] h-1 bg-currentOrange block rounded translate-x-[-13px] duration-500"></span>
                 </span>
               </li>
             </ul>
-            <a href="./contact-us.html" class=" py-2.5 px-4 mb-1 lg:px-8 bg-currentOrange rounded-sm text-[13px]">Contact us</a>
+            <a href="./contact-us.html" class=" py-2.5 px-4 mb-1 lg:px-8 bg-[#FA9021] rounded-sm text-[13px]">Contact us</a>
             </div>
           </div>
         </div>
@@ -111,7 +112,7 @@
           <i class="ri-arrow-right-s-line"></i>
           <a href="./services.html" class="text-breadcrumbText">News</a>
         </div>
-        <h1 class="poppins-semibold leading-too-lose text-xl md:text-[33px] pb-3 text-center">Lorem Ipsum is simply dummy text of the printing and.</h1>
+        <h1 class="poppins-semibold leading-too-lose text-xl md:text-[33px] pb-3 text-center title">Lorem Ipsum is simply dummy text of the printing and.</h1>
         <p class="poppins-medium leading-lose pb-6 md:pb-[45px] text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
         <div class="w-full xs:w-[400px] relative">
           <input type="search" id="search" placeholder="Search" class="bg-cardBg py-2.5 w-full pl-14 rounded-extra-lg focus:ring-0 focus:border-0 border-0 text-white text-base leading-lose z-[5]">
@@ -143,7 +144,7 @@
             <p class="xl:max-w-[530px] text-sm leading-normal lg:text-[17px] lg:leading-[208.8%] mb-4 lg:mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
             <p class="xl:max-w-[530px] text-sm leading-normal lg:text-[17px] lg:leading-[208.8%] ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
           </div>
-          <div class="w-full md:w-[65%] lg:w-1/2">
+          <div class="w-full md:w-[65%] lg:w-1/2" data-aos="zoom-in-left">
             <div class="flex flex-col sm:flex-row gap-4 xl:gap-[30px] items-center mb-8 xl:mb-[60px]">
               <img src="./project/Image/news section-2 (7).png" alt="" class="w-[160px] h-[160px] object-cover rounded-large xl:w-[195px] xl:h-[183px]">
               <div class="">
@@ -268,7 +269,7 @@
             <p class="leading-normal pb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
             <a href="tel:908 89097 890" class="leading-normal">+908 89097 890</a>
           </div>
-          <div class="w-full lg:w-[15%] flex lg:flex-wrap justify-center xl:flex-row  gap-4 xl:items-end">
+          <div class="w-full lg:w-[11%] grid grid-cols-6 xs:grid-cols-9 sm:grid-cols-12 lg:grid-cols-2  gap-4 justify-end xl:grid-rows-1 lg:grid-rows-4 items-end xl:grid-cols-4 xl:w-[18%]">
             <a href="https://www.facebook.com/" class="w-[34px] h-[34px] rounded-full bg-white flex justify-center items-center text-[#000000] duration-500 hover:bg-currentOrange hover:text-white hover:scale-125 scale-100">
               <i class="ri-facebook-fill"></i>
             </a>
