@@ -12,6 +12,20 @@
   <script src="./project/Plugins/Tailwind/tailwind.config.js"></script>
   <script src="./project/Plugins/Flowbite/cdnjs.cloudflare.com_ajax_libs_flowbite_1.7.0_flowbite.min.js"></script>
   <title>Portfolio</title>
+  <style>
+   .swiper {
+    height: 100%;
+   } 
+
+.swiper-slide {
+background-color: grey;
+height: auto !important;
+text-align: center;
+}
+.swiper-content {
+height: 100% !important
+}
+  </style>
 </head>
 <body>
   <div class="wrapper portfolio">
@@ -193,16 +207,16 @@
       </div>
     </section>
     <section class="text-white py-10 md:py-14 xl:pt-[88px] xl:pb-[60px] bg-cardBg">
-      <div class="container flex flex-col items-center">
+      <div class="container flex flex-col items-center mb-8 md:mb-14 xl:mb-[68px]">
         <div class="xl:w-5/12">
           <h1 class="text-center rubik-medium pb-5 text-xl leading-normal md:text-[35px] md:leading-[50px]">Trusted by Thousands of Happy Customer</h1>
           <p class="text-sm leading-lose text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy .</p>
         </div>
       </div>
-      <div class="swiper mySwiper-customers">
+      <div class="swiper mySwiper-customers ml-5 xs:ml-[8vw] md:ml-[7vw] min-[850px]:ml-[10vw] min-[920px]:ml-[15vw] lg:ml-[9vw] xl:ml-[10vw] min-[1440px]:ml-[13vw] 2xl:ml-[7vw]">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="p-4 md:p-[30px] rounded-extra-lg bg-darkBlack border-2 duration-500 hover:border-currentOrange border-[#DDDDDD]">
+          <div class="swiper-slide rounded-extra-lg ">
+            <div class="p-4 md:p-[30px] h-full rounded-extra-lg bg-darkBlack border-2 duration-500 hover:border-currentOrange border-[#DDDDDD]">
               <div class="flex justify-between items-center">
                 <div class="flex gap-x-5">
                   <a href="#" class="block"><img src="./project/Image/services user img (3).png" alt="" class="w-[50px] h-[50px] rounded-full"></a>
@@ -216,23 +230,110 @@
                   <i class="ri-star-fill text-[#FEA250]"></i>
                 </div>
               </div>
+              <p class="pt-5 text-sm leading-lose text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
             </div>
           </div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
-          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide rounded-extra-lg ">
+            <div class="p-4 md:p-[30px] h-full rounded-extra-lg bg-darkBlack border-2 duration-500 hover:border-currentOrange border-[#DDDDDD]">
+              <div class="flex justify-between items-center">
+                <div class="flex gap-x-5">
+                  <a href="#" class="block"><img src="./project/Image/services user img (2).png" alt="" class="w-[50px] h-[50px] rounded-full"></a>
+                  <div>
+                    <a href="#" class="pb-1 rubik-medium text-lg leading-[30px]">Yessica Christy</a>
+                    <p class="text-sm rubik-normal text-[#4F5665]">Shanxi, China</p>
+                  </div>
+                </div>
+                <div class="flex gap-x-2.5">
+                  <p class="rubik-normal leading-[30px]">4.5</p>
+                  <i class="ri-star-fill text-[#FEA250]"></i>
+                </div>
+              </div>
+              <p class="pt-5 text-sm leading-lose text-start">Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+          </div>
+          <div class="swiper-slide rounded-extra-lg ">
+            <div class="p-4 md:p-[30px] h-full rounded-extra-lg bg-darkBlack border-2 duration-500 hover:border-currentOrange border-[#DDDDDD]">
+              <div class="flex justify-between items-center">
+                <div class="flex gap-x-5">
+                  <a href="#" class="block"><img src="./project/Image/services user img (1).png" alt="" class="w-[50px] h-[50px] rounded-full"></a>
+                  <div>
+                    <a href="#" class="pb-1 rubik-medium text-lg leading-[30px]">Kim Young Jou</a>
+                    <p class="text-sm rubik-normal text-[#4F5665]">Seoul, South Korea</p>
+                  </div>
+                </div>
+                <div class="flex gap-x-2.5">
+                  <p class="rubik-normal leading-[30px]">4.5</p>
+                  <i class="ri-star-fill text-[#FEA250]"></i>
+                </div>
+              </div>
+              <p class="pt-5 text-sm leading-lose text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+          </div>
+          <div class="swiper-slide rounded-extra-lg ">
+            <div class="p-4 md:p-[30px] h-full rounded-extra-lg bg-darkBlack border-2 duration-500 hover:border-currentOrange border-[#DDDDDD]">
+              <div class="flex justify-between items-center">
+                <div class="flex gap-x-5">
+                  <a href="#" class="block"><img src="./project/Image/services user img (3).png" alt="" class="w-[50px] h-[50px] rounded-full"></a>
+                  <div>
+                    <a href="#" class="pb-1 rubik-medium text-lg leading-[30px]">Yessica Christy</a>
+                    <p class="text-sm rubik-normal text-[#4F5665]">Shanxi, China</p>
+                  </div>
+                </div>
+                <div class="flex gap-x-2.5">
+                  <p class="rubik-normal leading-[30px]">4.5</p>
+                  <i class="ri-star-fill text-[#FEA250]"></i>
+                </div>
+              </div>
+              <p class="pt-5 text-sm leading-lose text-start">Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+          </div>
+          <div class="swiper-slide rounded-extra-lg ">
+            <div class="p-4 md:p-[30px] h-full rounded-extra-lg bg-darkBlack border-2 duration-500 hover:border-currentOrange border-[#DDDDDD]">
+              <div class="flex justify-between items-center">
+                <div class="flex gap-x-5">
+                  <a href="#" class="block"><img src="./project/Image/services user img (3).png" alt="" class="w-[50px] h-[50px] rounded-full"></a>
+                  <div>
+                    <a href="#" class="pb-1 rubik-medium text-lg leading-[30px]">Yessica Christy</a>
+                    <p class="text-sm rubik-normal text-[#4F5665]">Shanxi, China</p>
+                  </div>
+                </div>
+                <div class="flex gap-x-2.5">
+                  <p class="rubik-normal leading-[30px]">4.5</p>
+                  <i class="ri-star-fill text-[#FEA250]"></i>
+                </div>
+              </div>
+              <p class="pt-5 text-sm leading-lose text-start">Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+          </div>
+          <div class="swiper-slide rounded-extra-lg hidden sm:block">
+            <div class="p-4 md:p-[30px] h-full rounded-extra-lg bg-darkBlack border-2 duration-500 hover:border-currentOrange border-[#DDDDDD]">
+              <div class="flex justify-between items-center">
+                <div class="flex gap-x-5">
+                  <a href="#" class="block"><img src="./project/Image/services user img (3).png" alt="" class="w-[50px] h-[50px] rounded-full"></a>
+                  <div>
+                    <a href="#" class="pb-1 rubik-medium text-lg leading-[30px]">Yessica Christy</a>
+                    <p class="text-sm rubik-normal text-[#4F5665]">Shanxi, China</p>
+                  </div>
+                </div>
+                <div class="flex gap-x-2.5">
+                  <p class="rubik-normal leading-[30px]">4.5</p>
+                  <i class="ri-star-fill text-[#FEA250]"></i>
+                </div>
+              </div>
+              <p class="pt-5 text-sm leading-lose text-start">Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+          </div>
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next-customers"></div>
-        <div class="swiper-button-prev-customers"></div>
+      </div>
+      <div class="container flex justify-between items-center mt-10 md:pt-[60px]">
+        <div class="swiper-pagination-customers"></div>
+        <div class=" flex gap-5">
+          <div class="swiper-button-prev-customers w-[60px] h-[60px] rounded-full border-2 flex justify-center items-center text-currentOrange text-3xl border-currentOrange duration-500 hover:bg-currentOrange hover:text-white"><i class="ri-arrow-left-line"></i></div>
+          <div class="swiper-button-next-customers w-[60px] h-[60px] rounded-full border-2 flex justify-center items-center text-currentOrange text-3xl border-currentOrange duration-500 hover:bg-currentOrange hover:text-white"><i class="ri-arrow-right-line"></i></div>
+        </div>
       </div>
     </section>
-    <section class="text-white py-14 md:py-20 xl:py-[160px] ">
+    <section class="text-white py-14 md:py-20 xl:pb-[140px] xl:pt-32 ">
       <div class="container ">
         <div class="lg:w-5/12 mb-10 md:mb-14 xl:mb-[74px]">
           <h1 class="poppins-semibold leading-lose text-xl md:text-3xl pb-4 md:pb-8 ">Lorem Ipsum</h1>
@@ -309,16 +410,41 @@
    //aos
     AOS.init();
     var swiper = new Swiper(".mySwiper-customers", {
-      slidesPerView: 3,
-      spaceBetween: 50,
+      slidesPerView: 1,
+      spaceBetween: 20,
+      direction: 'horizontal',
+      // autoplay: {
+      //   delay: 3000,
+      //   disableOnInteraction: false,
+      // },
       pagination: {
-        el: ".swiper-pagination",
-        dynamicBullets: true,
+        el: ".swiper-pagination-customers",
       },
       navigation: {
         nextEl: ".swiper-button-next-customers",
         prevEl: ".swiper-button-prev-customers",
       },
+      breakpoints: {
+        360: {
+          slidesPerView: 1.2,
+        },
+        450: {
+          slidesPerView: 1.5,
+        },
+        550: {
+          slidesPerView: 1.8,
+        },
+        800: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 2.5,
+        },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+      }
     });
   </script>
 </body>
